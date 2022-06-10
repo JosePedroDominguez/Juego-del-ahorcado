@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: #656D8E;
+    
+}
+
+#icono-alura{
+    position: left;
+    left: 36.67%;
+    right: 37.43%;
+    top: 10%;
+    bottom: 0%;
+}
+
+header{
+    
+    background: #870019;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    max-height: 800px;
+}
+
+#jugar{
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    background: #870019;
+    color:#022E56;
+}
+#agregarPalabra{
+    width: 100px;
+    height: 50px; 
+    text-align: center;
+    background: #870019;
+    color:#022E56;    
+}
+#palabraNueva{
+    height: 3em;
+}
+#letras{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+#letras button{
+    width: 28px;
+    height: 25;
+    padding: 6px 0;
+    text-align: center;
+    background: #870019;
+    color:#022E56;
+    
+}
+#agregarButton{
+    width: 70px;
+    height: 35px; 
+    text-align: center;
+    background: #870019;
+    color:#022E56;
+
+}
+#palabraAdivinar{
+    height: 3em;
+}
+
+#palabraAdivinar span{
+    vertical-align: bottom;
+    font-family: 'Times New Roman';
+    font-size: 2em;
+    border-bottom: 2px solid #022E56;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block; 
+}
+#letrasIncorrectas span{
+    vertical-align: bottom;
+    font-family: 'Times New Roman';
+    font-size: 2em;
+    border-bottom: 2px solid #022E56;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;    
+}
+#ganaste{
+    color: rgb(38, 176, 38);
+}
+#perdiste{
+    color: rgb(219, 48, 48);
+}
+footer {
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color:#870019;
+    text-align: center;
+
+}
+#textoFooter{
+
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    
+    color: #022E56;
+}

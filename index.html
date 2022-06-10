@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/AluraLogo.svg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/IndexStile.css">
+        <script src="js/logicaAuxiliar.js"></script>
+		<title>Juego del ahorcado</title>
+        
+        
+    </head>
+
+	<body>
+		<header>
+            <img id="icono-alura" src="img/AluraLogo.svg"></img>
+        </header>	
+		
+		<main>
+          
+            <div  id="pantallaJuego">
+
+                <img id="imagen" src="img/img0.png" alt="Ahorcado">
+
+                <p id="palabraAdivinar"></p>
+
+                <p id="letrasIncorrectas"></p>
+                
+                
+                <form id="formularioAgregarPalabra">
+                        <input id="palabraNueva" type="text"rows="10" cols="50"/>
+                        </br>
+                        </br>
+                        <input type="button" value="Agregar" id="agregarButton" onclick="agregarPalabra()"/>
+                        <button id="jugar">Jugar</button>
+                </form>
+                
+                <p id="resultadoJuego"></p>
+           
+                <div id="letras">
+                    <button>A</button>
+                    <button>B</button>
+                    <button>C</button>
+                    <button>D</button>
+                    <button>E</button>
+                    <button>F</button>
+                    <button>G</button>
+                    <button>H</button>
+                    <button>I</button>
+                    <button>J</button>
+                    <button>K</button>
+                    <button>L</button>
+                    <button>M</button>
+                    <button>N</button>
+                    <button>Ñ</button>
+                    <button>O</button>
+                    <button>P</button>
+                    <button>Q</button>
+                    <button>R</button>
+                    <button>S</button>
+                    <button>T</button>
+                    <button>U</button>
+                    <button>V</button>
+                    <button>W</button>
+                    <button>X</button>
+                    <button>Y</button>
+                    <button>Z</button>
+                </div>
+            
+                
+                
+            </div>
+
+		</main>   
+        <script src="js/logicaJuego.js"></script>	
+	</body>
+    <footer>
+        <div>
+            <span id="textoFooter">Desarollado por Jose Pedro Dominguez 2022</span>
+        </div>
+    </footer>
+
+</html>
