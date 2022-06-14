@@ -26,10 +26,10 @@ function comenzar(event){
     aciertos = 0;    
 
     let parrafo = id('palabraAdivinar');
-    let parrafoDos = id('letrasIncorrectas');
+ 
 
     parrafo.innerHTML = '';
-    parrafoDos.innerHTML = '';
+
 
     let cantidadPalabras = palabras.length;
     let palabraRandom = obtenerPalRandom(0,cantidadPalabras);
@@ -38,8 +38,7 @@ function comenzar(event){
     console.log( palabra );
 
     let cantLetras = palabra.length;
-    let cantLetrasError =  letraIngresada.length;
-
+    
     for(let i=0; i < btn_letras.length ; i++){
         btn_letras[i].disabled = false;
     }
@@ -47,10 +46,7 @@ function comenzar(event){
         let span = document.createElement('span');
         parrafo.appendChild(span);
     }
-    for(let i=0; i < cantLetrasError ; i++){
-        let spanError = document.createElement('span');
-        parrafoDos.appendChild(spanError);
-    }
+
     
 }
 
@@ -75,10 +71,7 @@ function seleccionarLetras(event){
             aciertos++;
             acerto = true
         }
-        else if(letra != palabrita[i]){
-            spansError[i].innerHTML = letra;
-            
-        }
+
 
     }
 
